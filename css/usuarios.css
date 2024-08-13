@@ -1,0 +1,65 @@
+body{
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    color: #333;
+}
+table {
+    border-collapse: collapse; /* Elimina el espacio entre bordes de celdas adyacentes */
+    margin: 20px auto; /* Centra la tabla horizontalmente y añade un margen superior e inferior */
+    width: 80%; /* Establece el ancho de la tabla como un porcentaje del contenedor padre */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Añade una sombra alrededor de la tabla */
+    border: 1px solid #ddd; /* Establece un borde ligero alrededor de la tabla */
+    border-radius: 5px; /* Bordes redondeados (opcional) */
+}
+tr th{
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+tr td{
+    background-color: #f9f9f9;
+    padding: 10px;
+    text-align: center;
+}
+
+td a{
+    color: red;
+    text-decoration: none;
+}
+td a:hover{
+    color: #333;
+}
+
+
+.btn-volver{
+    background-color: #333;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 21.7ch;
+}
+.btn-nuevo-usuario{
+    background-color: #333;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+   margin-left: 142ch;
+}

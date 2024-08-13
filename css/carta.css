@@ -1,0 +1,124 @@
+body{
+    background: radial-gradient(circle at center, rgba(184, 121, 121, 1) 0%, rgba(0, 0, 0, 1) 160%);
+    font-family: Arial, sans-serif; 
+   
+    
+}
+header {
+    position: fixed; /* Fija el header en la parte superior de la página */
+    top: 0;
+    left: 0;
+    width: 100%; /* Asegura que el header ocupe todo el ancho de la página */
+    background-color: rgb(255, 255, 255); /* Fondo oscuro con algo de transparencia */
+    padding: 10px 20px;
+    z-index: 1000; /* Asegura que el header esté por encima de otros contenidos */
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+    color: black;
+}
+
+.contenedor_menu {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; /* Centra el menú horizontalmente */
+    align-items: center; /* Alinea los elementos en el centro vertical */
+    gap: 50px; /* Espacio entre los elementos del menú */
+    padding: 10px;
+    
+
+}
+.div_menu a {
+    text-decoration: none;
+    color: #000; /* Color del texto del enlace */
+    padding: 10px 20px; /* Espaciado interno de los enlaces */
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s;
+    margin-right: 10px;
+    background-color: white;
+}
+
+.div_menu a:hover {
+    color: #ffffff; /* Color del enlace al pasar el mouse */
+    background-color: black;
+}
+.container{
+    
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 200px;
+    
+}
+
+
+.container2{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+}
+
+
+
+.div{
+    margin-top: 400px;
+    width: calc(33% - 150px); /* Three divs per row with a gap */
+    height: 550px;
+    background-color: rgb(162, 23, 23);
+    position: relative;
+    content:center; 
+    margin: 20px;
+}
+
+.texto{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+   margin-top: 10px;
+}
+.container3{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+ 
+}
+.div2{
+    width: 100px;
+    height: 100px;
+    max-width: 100%;
+    background-color: blue;
+    position: relative;
+    margin: 2px;
+}
+
+
+.divcentral{
+    width: 300px;
+    height: 300px;
+    max-width: 100%;
+    background-color: transparent;
+    position: relative;
+    margin: auto;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ 
+}
+
+.divcentral img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 10px;
+}

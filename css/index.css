@@ -1,0 +1,115 @@
+body{
+    background: radial-gradient(circle at center, rgba(184, 121, 121, 1) 0%, rgba(0, 0, 0, 1) 160%);
+    font-family: Arial, sans-serif; 
+    display: flex;
+    justify-content: center;  
+    align-items: center; 
+    
+    flex-direction: column;
+    
+}
+header {
+    position: fixed; /* Fija el header en la parte superior de la página */
+    top: 0;
+    left: 0;
+    width: 100%; /* Asegura que el header ocupe todo el ancho de la página */
+    background-color: rgb(255, 255, 255); /* Fondo oscuro con algo de transparencia */
+    padding: 10px 20px;
+    z-index: 1000; /* Asegura que el header esté por encima de otros contenidos */
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+    color: black;
+}
+
+.contenedor_menu {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; /* Centra el menú horizontalmente */
+    align-items: center; /* Alinea los elementos en el centro vertical */
+    gap: 50px; /* Espacio entre los elementos del menú */
+    padding: 10px;
+    
+
+}
+.div_menu a {
+    text-decoration: none;
+    color: #000; /* Color del texto del enlace */
+    padding: 10px 20px; /* Espaciado interno de los enlaces */
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s;
+    margin-right: 10px;
+    background-color: white;
+}
+
+.div_menu a:hover {
+    color: #ffffff; /* Color del enlace al pasar el mouse */
+    background-color: black;
+}
+h2{
+    color: #d6d6d6;
+    display: block;
+    justify-content: center;
+    align-items: center;
+
+}
+h2:hover{
+    color: #969696;
+}
+.contenedor_menu {
+    display: flex;
+    justify-content: center; /* Centra el menú horizontalmente */
+    align-items: center; /* Alinea los elementos en el centro vertical */
+    gap: 50px; /* Espacio entre los elementos del menú */
+    padding: 10px;
+
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+a:hover{
+    color: #666;
+}
+
+.container {
+    width: 80%; /* Ajusta el ancho del contenedor según tus necesidades */
+    max-width: 300px; /* Establece un ancho máximo opcional */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 20px; /* Espaciado interno del contenedor */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra opcional alrededor del contenedor */
+    margin-top: 100px;
+}
+ul {
+    list-style-type: none; /* Elimina los puntos predeterminados de la lista */
+    padding: 0; /* Elimina el relleno predeterminado */
+    margin: 0; /* Elimina el margen predeterminado */
+    text-align: center; /* Centra los elementos de la lista */
+}
+
+/* Estilo para los elementos de la lista */
+li {
+    background-color: #f4f4f4; /* Color de fondo del rectángulo */
+    border: 1px solid #ddd; /* Color del borde */
+    border-radius: 5px; /* Bordes redondeados (opcional) */
+    padding: 10px; /* Espaciado interno */
+    margin: 5px 0; /* Espaciado externo entre los elementos */
+    transition: background-color 0.3s; /* Transición suave para el color de fondo */
+}
+
+/* Estilo para el enlace dentro del <li> */
+li a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: #333; /* Color del texto del enlace */
+    display: block; /* Hace que el enlace ocupe todo el área del <li> */
+}
+
+/* Cambia el color de fondo del <li> cuando se pasa el mouse por encima */
+li:hover {
+    background-color: #e0e0e0;
+}
